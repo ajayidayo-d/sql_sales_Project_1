@@ -46,5 +46,5 @@ The project provides insights into customer behavior, category performance, and 
 ---
 
 ## 👤 Author
-**Sunday Ajayi**  
-Data Analysis & Quality Control Enthusiast 
+**Ajayi dayo**  
+Data Analyst 
