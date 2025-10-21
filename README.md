@@ -125,6 +125,7 @@ FROM ['SQL - Retail Sales Analysis_utf$']
 GROUP BY category;
 
 ```
+### Q10: create each shift and number of orders (Example Morning <=12, Afternoon Between 12 & 17, Evening >17)
 
 WITH hourly_sale
 AS
