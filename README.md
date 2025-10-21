@@ -125,8 +125,9 @@ FROM ['SQL - Retail Sales Analysis_utf$']
 GROUP BY category;
 
 ```
-### Q10: create each shift and number of orders (Example Morning <=12, Afternoon Between 12 & 17, Evening >17)
+### Q10: create each shift and number of orders (Example Morning <=12, Afternoon Between 12 & 17, Evening >17
 
+```sql
 WITH hourly_sale
 AS
 (
@@ -142,7 +143,7 @@ SELECT
     shift,
     COUNT(*) as total_orders    
 FROM hourly_sale
-GROUP BY shift
+GROUP BY shift;
 
 ```
 
